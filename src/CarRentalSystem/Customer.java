@@ -13,7 +13,7 @@ public class Customer {
 	private String correo;
 	private String telefono;
 	private String calle;
-}
+
 
 	//Constructor
 public Customer(String nombre, String dni, String correo, String telefono, String calle) {
@@ -64,4 +64,5 @@ public void setTelefono(String telefono) {
 
 public void setCalle(String calle) {
     this.calle = calle;
+}
 }
