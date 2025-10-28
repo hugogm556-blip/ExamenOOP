@@ -1,7 +1,7 @@
 /**
- * 
+ *
  */
-package CarRentalSystem;
+package carrentalsys;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +37,7 @@ public class SistemaAlquiler {
 
 	/**
 	 * Busca un vehículo por matrícula.
-	 * 
+	 *
 	 * @param matricula Matrícula del vehículo.
 	 * @return El Vehiculo encontrado o null.
 	 */
@@ -48,8 +48,9 @@ public class SistemaAlquiler {
 
 	// Método para crear una transacción
 	public Alquiler crearAlquiler(Cliente cliente, Vehiculo vehiculo, int dias) {
-		if (vehiculo == null || cliente == null)
+		if (vehiculo == null || cliente == null) {
 			return null;
+		}
 
 		// Crear la composición
 		Alquiler nuevoAlquiler = new Alquiler("A" + (nextAlquilerId++), cliente, vehiculo, dias);

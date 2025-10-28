@@ -1,7 +1,7 @@
 /**
- * 
+ *
  */
-package CarRentalSystem;
+package carrentalsys;
 
 import java.time.LocalDate;
 

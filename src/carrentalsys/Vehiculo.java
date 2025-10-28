@@ -1,7 +1,7 @@
 /**
- * 
+ *
  */
-package CarRentalSystem;
+package carrentalsys;
 
 /**
  * @author hugog27 oct 2025

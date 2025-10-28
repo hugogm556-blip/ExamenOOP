@@ -1,7 +1,7 @@
 /**
- * 
+ *
  */
-package CarRentalSystem;
+package carrentalsys;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,7 +39,7 @@ public class Main {
         Alquiler alq1 = sistema.crearAlquiler(cli1, c1, 3);
         if (alq1 != null) {
             alq1.mostrarResumen();
-            
+
             // Pago (Polimorfismo por Interfaz)
             ServicioPago pago1 = new PagoTarjeta("1111-2222-3333-4444");
             pago1.procesarPago(alq1.calcularCostoTotal());
@@ -49,7 +49,7 @@ public class Main {
         Alquiler alq2 = sistema.crearAlquiler(cli2, s1, 5);
         if (alq2 != null) {
             alq2.mostrarResumen();
-            
+
             // Pago (Reutilizando la interfaz de pago)
             ServicioPago pago2 = new PagoTarjeta("5555-6666-7777-8888");
             pago2.procesarPago(alq2.calcularCostoTotal());
