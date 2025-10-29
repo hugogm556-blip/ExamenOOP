@@ -12,8 +12,7 @@ public class Customer {
 	private String dni;
 	private String correo;
 	private String telefono;
-	private String calle;
-}
+	private String calle;}
 
 	//Constructor
 public Customer(String nombre, String dni, String correo, String telefono, String calle) {
