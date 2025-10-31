@@ -10,9 +10,14 @@ public class Main {
         // Esto simplemente imprime un mensaje en la pantalla para saber que el programa ha comenzado.
         System.out.println("--- DEMOSTRACIÓN DEL SISTEMA DE ALQUILER DE VEHÍCULOS ---");
 
+<<<<<<< HEAD
         // Inicializar el Sistema
         // Creamos un objeto llamado 'sistema'. Este objeto es como el cerebro de la aplicación:
         // es el encargado de guardar los vehículos, clientes y gestionar los alquileres.
+=======
+        // Inicializar el sistema
+     // Inicializar el sistema 
+>>>>>>> ca0919e71b9bddcaf2309aee0fdd11f24d479e8b
         SistemaAlquiler sistema = new SistemaAlquiler();
 
         // 1. Añadir Vehículos (Herencia/Polimorfismo)
