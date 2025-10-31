@@ -24,7 +24,7 @@ public class SUV extends Vehiculo {
      // las partes que son comunes a todos los vehículos.
      super(matricula, marca, modelo, tarifaDiaria);
      // Luego inicializamos el atributo propio de SUV.
-     this.tiene4x4 = tiene4x4;
+     this.tiene4x4 = tiene4x8;
  }
 
  // ----------------------------------------------------------------------
