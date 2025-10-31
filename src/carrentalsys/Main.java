@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("--- DEMOSTRACIÓN DEL SISTEMA DE ALQUILER DE VEHÍCULOS ---");
 
-        // Inicializar el Sistema
+        // Inicializar el sistema
+     // Inicializar el sistema 
         SistemaAlquiler sistema = new SistemaAlquiler();
 
         // 1. Añadir Vehículos (Herencia/Polimorfismo)
